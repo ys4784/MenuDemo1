@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     //ctrl + o 快捷鍵(叫出可以override的方法)
     @Override
-    //建立Menu
+    //建立選項式Menu
     public boolean onCreateOptionsMenu(Menu menu) {
         //載入Menu的layout
         getMenuInflater().inflate(R.menu.mymenu , menu);
