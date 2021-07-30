@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    res右鍵 > New Android Resource File > type 選 menu
+    -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/setting"
+        android:title="設定"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/infoMe"
+        android:title="關於我"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/logOut"
+        android:title="登出"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/fbIcon"
+        android:icon="@mipmap/ic_launcher_round"
+        android:title="FB"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1"/>
+
+    <!--
+        app:showAsAction    選擇item的呈現方式
+            never           不會在bar(menu)中出現(會隱藏成三個點，需自行點開)
+            ifRoom          如果bar(menu)有空間才會顯示
+            always          一定會顯示
+            withText        除了icon，也可顯示文字標題
+    -->
+
+</menu>
